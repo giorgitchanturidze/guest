@@ -1,5 +1,4 @@
 /.idea
-/web/
 /vendor
 /mariadb-data
 
@@ -14,12 +13,15 @@ node_modules/
 .DS_Store
 Thumbs.db
 
+!web/
+web/*
 # Dont ignore web/wp-config.php
 !web/wp-config.php
 # Dont ignore web/wp-content/uploads
 !web/wp-content/uploads
 # Dont ignore database.sql
 !web/database.sql
+!web/wp-content/
 # Dont ignore web/wp-content/plugins/advanced-custom-fields-pro
 !web/wp-content/plugins/advanced-custom-fields-pro
 
