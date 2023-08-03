@@ -1,3 +1,6 @@
 /.idea
-/web
+/web/*
 /vendor
+
+# Dont ignore web/wp-config.php
+!web/wp-config.php
