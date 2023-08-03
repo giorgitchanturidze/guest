@@ -21,7 +21,6 @@ web/*
 !web/wp-content/uploads
 # Dont ignore database.sql
 !web/database.sql
-!web/wp-content/
 # Dont ignore web/wp-content/plugins/advanced-custom-fields-pro
 !web/wp-content/plugins/advanced-custom-fields-pro
 
