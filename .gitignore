@@ -16,8 +16,12 @@ Thumbs.db
 
 # Dont ignore web/wp-config.php
 !web/wp-config.php
+# Dont ignore web/wp-content/uploads
+!web/wp-content/uploads
 # Dont ignore database.sql
 !web/database.sql
+# Dont ignore web/wp-content/plugins/advanced-custom-fields-pro
+!web/wp-content/plugins/advanced-custom-fields-pro
 
 # Logs and temporary files
 *.log
