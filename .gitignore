@@ -1,6 +1,33 @@
 /.idea
-/web/*
+/web/
 /vendor
+/mariadb-data
+
+# Node
+node_modules/
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
 
 # Dont ignore web/wp-config.php
 !web/wp-config.php
+# Dont ignore database.sql
+!web/database.sql
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.sql
+
+# Other files
+wodby.yml
+*.swp
+*.swo
+
+
